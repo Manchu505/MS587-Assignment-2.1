@@ -1,0 +1,100 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif; /* Sets the font for the entire webpage to Arial, with a fallback to any sans-serif typeface */
+    background-color: #f4f4f4; /* Sets a light grey background color for the whole page */
+    margin: 0; /* Removes the default margin around the <body> */
+    padding: 0; /* Removes the default padding inside the <body> */
+}
+
+/* Container styles */
+.container {
+    width: 80%; /* Sets the width of the container to 80% of the parent element, typically the <body> */
+    margin: auto; /* Centers the container horizontally within its parent element */
+    overflow: hidden; /* Prevents content from overflowing outside of the container */
+}
+
+/* Header styles */
+h1 {
+    text-align: center; /* Centers the text of all <h1> elements */
+    margin-top: 50px; /* Adds top margin to push the element down from the top */
+    color: #333; /* Sets the text color to a dark grey */
+}
+
+/* Styling for a group list */
+.list-group {
+    margin-top: 40px; /* Adds space above the list group */
+}
+
+/* Individual list item styles */
+.list-group-item {
+    background-color: #fff; /* Sets a white background for each item */
+    border: 1px solid #ddd; /* Adds a light grey border around each item */
+    margin-bottom: 10px; /* Adds space below each item */
+    padding: 20px; /* Adds padding inside each item for spacing around the content */
+    border-radius: 5px; /* Rounds the corners of the border */
+}
+
+/* Heading within list group items */
+.list-group-item h5 {
+    margin: 0 0 10px; /* Sets the bottom margin to create space below the heading */
+    color: #333; /* Sets the text color to dark grey, similar to <h1> */
+}
+
+/* Book image styles */
+.book-image {
+    max-width: 100px; /* Sets the maximum width of the book image to 100px */
+    display: block; /* Forces the image to appear on a new line and take the full width available */
+    margin-bottom: 10px; /* Adds space below the image */
+}
+
+/* Common button and link styles */
+button, a.btn {
+    display: inline-block; /* Allows the button to sit next to other elements */
+    padding: 10px 20px; /* Adds padding inside the button for spacing around the text */
+    margin-right: 10px; /* Adds a right margin to separate it from the next element */
+    text-decoration: none; /* Removes underline from links */
+    background-color: #007bff; /* Sets a bright blue background color */
+    color: white; /* Sets the text color to white */
+    border: none; /* Removes any default border */
+    border-radius: 5px; /* Rounds the corners of the button */
+    cursor: pointer; /* Changes the mouse cursor to indicate the element is clickable */
+    font-size: 14px; /* Sets the font size */
+    transition: background-color 0.3s ease; /* Smooth transition for the background color change when hovered */
+}
+
+/* Button and link hover styles */
+button:hover, a.btn:hover {
+    background-color: #0056b3; /* Changes the background color to a darker blue on hover */
+}
+
+/* Additional styles for informational buttons */
+a.btn-info {
+    background-color: #17a2b8; /* Sets a teal background color */
+}
+
+a.btn-info:hover {
+    background-color: #117a8b; /* Darkens the teal background on hover */
+}
+
+/* Styles for danger buttons */
+a.btn-danger {
+    background-color: #dc3545; /* Sets a red background color */
+    margin-top: 10px; /* Adds top margin */
+}
+
+a.btn-danger:hover {
+    background-color: #c82333; /* Darkens the red background on hover */
+}
+
+/* Audio player styling */
+audio {
+    display: block; /* Makes the audio element display as a block */
+    margin: 20px auto; /* Centers the audio player horizontally and adds vertical spacing */
+}
+
+/* Flex container for centering elements */
+.center-button {
+    display: flex; /* Uses flexbox to layout child elements */
+    justify-content: center; /* Centers the child elements horizontally */
+    margin-top: 20px; /* Adds space above the flex container */
+}
